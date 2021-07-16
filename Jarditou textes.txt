@@ -11,5 +11,6 @@ Section 2 :
   paragraphe 2 : Vous serez séduit par notre expertise, nos compétences et notre sérieux.
 	
  Article 2 : Devis gratuit
-  paragraphe 1 : Vous pouvez bien sûr contacter pour de plus amples informations ou pour une demande d’intervention. Vous souhaitez un devis ? Nous vous le réalisons gratuitement.
+  paragraphe 1 : Vous pouvez bien sûr contacter pour de plus amples informations ou pour une demande d’intervention. Vous souhaitez un devis ? Nous vous le réalisons 
+                 gratuitement.
 	    
