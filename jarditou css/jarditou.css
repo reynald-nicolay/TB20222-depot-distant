@@ -1,0 +1,98 @@
+/*css*/
+
+* a:link,
+a:visited {
+    color: white;
+}
+
+.logo {
+    float: left;
+    display: block;
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+.promo {
+    width: 100%;
+    display: block;
+}
+
+#corps {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    height: auto;
+    display: flex;
+}
+
+.colonne {
+    background-color: rgba(173, 173, 173, 0.493);
+    height: auto;
+    width: 40%;
+}
+
+.footer {
+    padding: 1px;
+    height: 70px;
+    background: black;
+}
+
+.text {
+    flex-direction: column;
+}
+
+.tit {
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    background-color: black;
+}
+
+li {
+    display: inline;
+}
+
+.box {
+    padding: 1px;
+    margin: 0 0 4px 0;
+    height: auto;
+    background: black;
+}
+
+@media screen and (max-width: 768px) {
+
+    .logo {
+        float: left;
+        display: block;
+        margin-left: 15px;
+        margin-right: auto;
+    }
+
+
+    .tit {
+        font-size: 25px;
+        padding: 10px;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .colonne {
+        display: none;
+    }
+
+    li {
+        display: block;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+
+}
