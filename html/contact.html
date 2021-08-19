@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page contact</title>
+</head>
+
+<body>
+    <img src="jarditou_logo.jpg" alt="logo jarditou" title="logo jarditou">
+    <p>La qualité depuis 70 ans</p>
+
+    <ul>
+        <li><a href="accueil.html" title="aller a accueil">Accueil</a></li>
+        <li><a href="page_tableau.html" title="aller a la page tableau">Tableau</a></li>
+        <li><a href="page_contact.html" title="aller a la page contact">Contact</a></li>
+    </ul>
+
+    <img src="promotion.jpg" alt="Promotion" title="promotion">
+    <h1>Contact</h1>
+    <hr>
+    <form action="http://bienvu.net/script.php" method="post" id="formulaire_contact"><br>
+
+        <fieldset>
+            <legend>Vos coordonnées</legend>
+            <label for="nom">Nom* :</label>
+            <input type="text" name="nom" id="nom"><br>
+            <label for="prenom">Prénom* :</label>
+            <input type="text" name="prenom" id="prenom"><br>
+
+            <label for="sexe">Sexe* :</label>
+            <input type="radio" id="sexe" name="sexe:" value="feminin">
+            <label for="sexe">Féminin</label>
+
+            <input type=radio id="homme" name="sexe:" value="masculin">
+            <label for="homme">Masculin</label><br>
+
+            <label for="bday">Date de naissance* :</label>
+            <input type="date" id="bday" name="bday"><br>
+
+            <label for="code">Code Postal* :</label><input type="text" id="code"><br>
+            <label for="adresse">Adresse :</label><input type="text" id="adresse"><br>
+            <label for="ville">Ville :</label><input type="text" id="ville"><br>
+            <label for="email">Email* :</label><input type="text" id="email"><br>
+        </fieldset>
+<br>
+        <fieldset>
+            <legend>Votre demande</legend><br>
+            <label for="sujet">Sujet* :</label><input type="text" id="sujet"><br>
+            <label for="sujet">Veuillez selectionner un sujet :</label>
+            <input type="text" name="sujet1" id="sujet2" list="sujet3">
+            <datalist id="sujet3">
+                <option value="mes commandes"></option>
+                <option value="question sur un produit"></option>
+                <option value="réclamation"></option>
+                <option value="autres"></option>
+            </datalist><br>
+            <label for="question">Votre question* :</label><input type="text" name="question" id="question"><br>
+        </fieldset>
+       <br>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">J'accepte le traitement de ce formulaire
+            </label>
+        </div><br>
+       
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Annuler">
+    </form>
+
+    <ul>
+        <li><a href="mention_legale.html" title="aller a la page mention legale">Mentions légales</a></li>
+        <li><a href="page_tableau.html" title="aller a la page tableau">Tableau</a></li>
+        <li><a href="page_contact.html" title="aller a la page contact">Contact</a></li>
+    </ul>
+
+</body>
+
+</html>
